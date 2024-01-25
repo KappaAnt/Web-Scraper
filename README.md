@@ -5,7 +5,7 @@
 
 The goal of our code is to visualize the data we extracted from eBay and Reddit and stored it in our database. When you run the code, you are given the option to customize the parameter of two different graphs. The first graph allows you to pick a category of clothing and compare the average prices of the listings of eBay listings to the US Labor Statistics data. The second graph allows you to pick from big-name brands and misc options to see the prevalence of discussion in our two main subreddits, r/findfashion and r/fashionreps.
 
-
+## In Dash
 ## app.py
 
 **Imports**:
@@ -35,6 +35,7 @@ Runs the Flask app with debug mode on.
 
 Overall, the script provides an interactive platform for analyzing and comparing fashion prices and brand popularity trends based on Reddit data. Users can select different categories and brands from dropdown menus to visualize the corresponding data in bar graphs.
 
+## In Interpretation
 ## plots.py
 
 **Data Collection and Initialization**:
@@ -56,6 +57,7 @@ moderateHateSpeechFigureFind(dataObject), moderateHateSpeechFigureReps(dataObjec
 
 rPoliticsFigure(dataObject): Visualizes the number of posts in the r/politics subreddit over a specific period in November 2023 using a line plot.
 
+## In Interpretation
 ## scavenge.py
 
 **Class Initialization**:
@@ -88,6 +90,11 @@ Analyzes the popularity of various brands in the findfashion and fashionreps sub
 Uses brand mappings to count occurrences of each brand in the post titles from these subreddits.
 
 To run:
+- Visit Dash/app.py
 - Activate Python env variable
 - pipinstall pandas, plotly, flask, dash
 - Run on: http://127.0.0.1:5000/dashboard/
+
+Note:
+- Faktory Web Scraping ran via controllerDB.py for database entry
+- Currently No active database 
