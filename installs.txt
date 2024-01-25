@@ -1,0 +1,9 @@
+ebaysdk
+beautifulsoup4
+rich
+mysql-connector-python
+matplotlib
+flask
+dash
+plotly
+pandas
