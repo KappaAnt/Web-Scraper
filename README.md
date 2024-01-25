@@ -1,14 +1,10 @@
-# Warning
-# Database is no longer active
-# Ran out of hosting funds
+# Warning: Database is no longer active
+# Research Reports folder holds pipeline progress documentation
 ---------------------------------------------------------------------------------------------
 # Summary of code and functionality
 
 The goal of our code is to visualize the data we extracted from eBay and Reddit and stored it in our database. When you run the code, you are given the option to customize the parameter of two different graphs. The first graph allows you to pick a category of clothing and compare the average prices of the listings of eBay listings to the US Labor Statistics data. The second graph allows you to pick from big-name brands and misc options to see the prevalence of discussion in our two main subreddits, r/findfashion and r/fashionreps.
 
-# Imagery 
-
-![Web Crawling Pipeline](System_Architecture_Diagram.drawio.png)
 
 ## app.py
 
